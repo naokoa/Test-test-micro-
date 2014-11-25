@@ -1,0 +1,39 @@
+header{
+    background-color:#00a1cf;
+    border-radius:40px;
+    margin-left: 40px;
+    margin-right:40px;
+}
+
+body{
+    margin:0;
+    background-color:#797b7c;
+}
+
+
+header a{
+    color:white;
+        
+}
+header li{
+    display:inline-flex;
+    width:33%;
+    margin:auto;
+    
+    
+    
+    
+}
+
+li{
+    list-style: none;
+}
+
+footer li{
+    
+    background-color:#00a1cf;
+    border-radius:40px;
+    margin-left: 40px;
+    margin-right:40px;
+}
+    
