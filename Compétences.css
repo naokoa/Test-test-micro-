@@ -4,10 +4,6 @@ body{
    
 }
 
-
-
-
-
 header{
     background-color:white;
     border-radius:40px;
@@ -26,9 +22,6 @@ header a{
     text-decoration: none;
 }
 
-header h2{
-    border-radius:50px;
-}
 header a:hover{
     color:blue;
     transform: scale(1.5);
@@ -50,11 +43,6 @@ footer li{
     border-radius:50px;
     
 }
-
-footer h1{
-    color:white;
-    text-align: center;
-    
 
 img{
     border-radius:40px;
