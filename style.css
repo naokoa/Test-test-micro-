@@ -1,11 +1,36 @@
-body{
-    background-image: url(Images/fond.jpg);
-    margin:0;
-   
+@font-face {
+    font-family: 'mademoiselle_camille_litalic';
+    src: url('Font/mademoiselle_camille_l.eot');
+    src: url('Font/mademoiselle_camille_l.eot?#iefix') format('embedded-opentype'),
+         url('Font/mademoiselle_camille_l.woff2') format('woff2'),
+         url('Font/mademoiselle_camille_l.woff') format('woff'),
+         url('Font/mademoiselle_camille_l.ttf') format('truetype'),
+         url('Font/mademoiselle_camille_l.svg#mademoiselle_camille_litalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 
+@font-face {
+    font-family: 'mademoiselle_camilleitalic';
+    src: url('Font/mademoiselle_camille.eot');
+    src: url('Font/mademoiselle_camille.eot?#iefix') format('embedded-opentype'),
+         url('Font/mademoiselle_camille.woff2') format('woff2'),
+         url('Font/mademoiselle_camille.woff') format('woff'),
+         url('Font/mademoiselle_camille.ttf') format('truetype'),
+         url('Font/mademoiselle_camille.svg#mademoiselle_camilleitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+body{
+    background-image:url(Images/Ardoise%20web%20nao.jpg);
+    background-size:cover;
+    font-family: 'mademoiselle_camilleitalic';
+   
+}
 
 
 header{
@@ -14,6 +39,15 @@ header{
     margin-left: 40px;
     margin-right:40px;
     text-align: center;  
+}
+
+main h1 {
+    text-align:center;
+    color:white;
+}
+main h2 {
+    text-align:center;
+    color:white; 
 }
 
 header ul {
@@ -30,7 +64,7 @@ header h2{
     border-radius:50px;
 }
 header a:hover{
-    color:blue;
+    color:#318CE7;
     transform: scale(1.5);
 }
 
@@ -47,15 +81,27 @@ li{
 
 footer li{
     display:inline-flex;
-    border-radius:50px;
-    
+    border-radius:50px;   
 }
 
 footer h1{
     color:white;
-    text-align: center;
-    
+    text-align:center;
+    padding-left: 250px;
+}
 
-img{
-    border-radius:40px;
+.photo-profil {
+    display: block;
+    margin:auto;
+    border: 5px solid white; 
+    border-radius: 500px;
+    width:200px;
+    height:200px;      
+}
+
+p{
+    color: white; 
+    text-align: center;
+    padding: 200px;
+    padding-left: 425px;
 }
