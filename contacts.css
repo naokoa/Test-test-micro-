@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'kaushan_scriptregular';
     src: url('Font/kaushanscript-regular.eot');
@@ -13,46 +12,38 @@
 }
 
 body{
-    background-image:url(Images/Ardoise%20web%20nao2.jpg);
-    background-size:cover;
-    font-family: 'kaushan_scriptregular';
+    background-image: url(Images/Ardoise%20web%20nao2.jpg);
+    margin:0;
    
 }
-
-
+main{
+    text-align: center;
+    color: white;
+    font-family: 'kaushan_scriptregular';
+    font-size: 14px;
+    
+}
 header{
     background-color:white;
     border-radius:40px;
     margin-left: 40px;
     margin-right:40px;
-    text-align: center;
-    background-size: contain;
-}
-
-main h1 {
-    text-align:center;
-    color:white;
-}
-main h2 {
-    text-align:center;
-    color:white; 
+    text-align: center;  
 }
 
 header ul {
     padding:0;
 }
 
-header a{
-    color:black;
-    text-decoration: none;
-}
-
-header h2{
-    border-radius:50px;
-}
 header a:hover{
     color:#318CE7;
     transform: scale(1.5);
+}
+
+header a{
+    color:black;
+    text-decoration: none;
+    font-family: 'kaushan_scriptregular';
 }
 
 header li{
@@ -66,33 +57,15 @@ li{
     list-style: none;
 }
 
+footer h1{
+    color: white;
+    text-align: center;
+    font-family: 'kaushan_scriptregular';
+    font-size: 14px;
+}
+
 footer li{
     display:inline-flex;
-    border-radius:50px;   
-}
-
-footer h1{
-    color:white;
-    text-align:center;
-}
-
-.photo-profil {
-    display: block;
-    margin:auto;
-    border: 5px solid white; 
-    border-radius: 500px;
-    width:200px;
-    height:200px;      
-}
-
-.chouette-dessin{
-    display: block;
-    margin:auto; 
-    width: 650px;
-    height: 500px;
-}
-
-main h3{ 
-    text-align: center; 
-    color: white; 
+    border-radius:50px;  
+    text-align: center;
 }
