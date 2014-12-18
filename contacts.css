@@ -10,13 +10,14 @@ font-weight: normal;
 font-style: normal;
 }
 body{
-background-image:url(Images/Ardoise%20web%20nao2.jpg);
+background-image: url(Images/Ardoise%20web%20nao2.jpg);
 margin:0;
 }
-footer{
-color:white;
-font-size: 10px;
+main{
 text-align: center;
+color: white;
+font-family: 'kaushan_scriptregular';
+font-size: 14px;
 }
 header{
 background-color:white;
@@ -24,13 +25,9 @@ border-radius:40px;
 margin-left: 40px;
 margin-right:40px;
 text-align: center;
-font-family: 'kaushan_scriptregular';
 }
 header ul {
 padding:0;
-}
-h2 {
-text-decoration:underline;
 }
 header a:hover{
 color:#318CE7;
@@ -39,6 +36,7 @@ transform: scale(1.5);
 header a{
 color:black;
 text-decoration: none;
+font-family: 'kaushan_scriptregular';
 }
 header li{
 display:inline-block;
@@ -49,8 +47,14 @@ text-align: center;
 li{
 list-style: none;
 }
-h1{
+footer h1{
+color: white;
+text-align: center;
 font-family: 'kaushan_scriptregular';
-border: 2px solid white;
-border-spacing: auto;
+font-size: 14px;
+}
+footer li{
+display:inline-flex;
+border-radius:50px;
+text-align: center;
 }
